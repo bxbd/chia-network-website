@@ -2,7 +2,13 @@ This is the web site at <https://chia.network/>. Pull requests accepted!
 
 If you have ideas for the FAQ, check out <https://github.com/Chia-Network/website/tree/master/webroot/faq>
 
-You can see this web site locally with python 2 as follows:
+You can see this web site locally using docker:
+
+````bash
+    $ docker-compose up
+````
+
+or natively with python 2 as follows:
 
 ````bash
     $ cd webroot

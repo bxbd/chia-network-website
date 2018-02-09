@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+    chia-www:
+        build: .
+        ports:
+            - 8000:8000
+        volumes:
+            - ./docker/init-chia-network.sh:/init-chia-network.sh
+            - ./webroot:/webroot
